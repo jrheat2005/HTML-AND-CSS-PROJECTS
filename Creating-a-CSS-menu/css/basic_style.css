@@ -8,8 +8,8 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -23,7 +23,7 @@ img {
 }
 /* Select all suares in the array */
 .container .squares:nth-child(-n+5) {
-    background-image: url("../images/Icons/icons.png");
+    background-image: url("../Icons/icons.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -65,7 +65,7 @@ img {
 
 /* HOVER EFFECTS, & transform */
 .container .squares:nth-child(-n+5):hover {
-        background-image: url("../images/Icons/icons2.png");
+        background-image: url("../Icons/icons2.png");
         transform: scale(.5);
         animation-name: race;
         animation-duration: 2.5s;
@@ -92,7 +92,7 @@ img {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("../images/Icons/icons.png")
+        background-image: url("../Icons/icons2.png")
     }
     50% {
         transform: translateY(330px);
